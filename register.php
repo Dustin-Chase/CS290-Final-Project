@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
 				echo "Execute failed: (" . $insert->errno . ") " . $insert->error;
 			}			
 			$insert->close(); 
-			echo "You have successfully registered."; 
+			echo "You have successfully registered. Please login to view your books."; 
 		}
 		
 		

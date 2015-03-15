@@ -34,8 +34,32 @@
 	<body>
 	<p id="breadCrumb"><a href="index.html">Home</a>> My Books</p>
 	<p id="user">Welcome, <?php echo $username; ?>!</p>
-	<div id="mybooks">
 	<p id="heading"></p>
+	<div id="mybooks">
 	</div>
+	<br>
+	<form id="addForm" action="" method="POST">
+		<fieldset>
+			<legend>Input a New Comic Book</legend>
+			Issue Number: <br>
+			<input type="number" min="0" max="1000" id="issuenum">
+			<br>
+			Title: <br>
+			<input type="text" id="title">
+			<br>
+			Date of Publication: <br>
+			<input type="date" id="date"><br>
+			Cover URL: <br>
+			<input type="text" id="coverurl"><br>
+			Publisher: <br>
+			<input type="text" id="publisher"><br>
+			Era: <br>
+			<input type="text" id="era"><br>
+			Notes: <br>
+			<input type="text" id="notes"><br>
+			<button onclick="javascript:addNewBook();return false">Add</button>
+		</fieldset>
+	</form>
+	<p id="addError"></p>
 	</body>
 </html>

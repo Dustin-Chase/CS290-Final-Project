@@ -41,6 +41,11 @@
 	color: red; 
 }
 
+#addError {
+	font-weight: bold; 
+	color: red; 
+}
+
 #loginForm  button{
 	border-radius:25px;
 	color: white;
@@ -52,3 +57,17 @@
 #loginForm  input{
 	background-color: #E4FF4F;  
 }
+
+#addForm {
+	width:20em; 
+}
+
+table, td, th {
+    border: 1px solid blue;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
