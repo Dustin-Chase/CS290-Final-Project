@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<script type="text/javascript" src="register.js"></script>
+		<title>Register - My Comics Database</title>		
+	</head>
+	<img src="logo.png" height="150" width="500"></img>
+	<body>
+	<div id="topMenu">
+	<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="login.html">Login</a></li>
+		  <li><a href="register.html">>Register</a></li>
+		  <li><a href="my_books.php">My Books</a></li>
+		   <li><a href="logout.php">Log Out</a></li>
+	</ul>
+	</div>
+	<p id="breadCrumb"><a href="index.html">Home</a>> Register</p>
+		<form id="loginForm" action="" method="POST">
+			Username: <br>
+			<input type="text" id="username">
+			<br>
+			Password: <br>
+			<input type="password" id="password1">
+			<br>
+			Re-Enter Password: <br>
+			<input type="password" id="password2"><br>
+			<button onclick="javascript:register();return false">Register</button>
+		</form>
+	<p id="regError"></p>
+	</body>
+</html>

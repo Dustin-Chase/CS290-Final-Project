@@ -1,0 +1,54 @@
+/*horizontal menu code modified from http://www.w3schools.com/css/css_navbar.asp */
+
+#topMenu ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topMenu li {
+    float: left;
+}
+
+#topMenu a:link, #topMenu a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0E97CC;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#topMenu a:hover, #topMenu a:active {
+    background-color: #158782;
+}
+
+#breadCrumb {
+	font-weight:bold; 
+}
+
+#loginError {
+	font-weight: bold; 
+	color: red; 
+}
+
+#regError {
+	font-weight: bold; 
+	color: red; 
+}
+
+#loginForm  button{
+	border-radius:25px;
+	color: white;
+	background-color: #166BCC; 
+	width: 100px; 
+	height: 30px; 
+}
+
+#loginForm  input{
+	background-color: #E4FF4F;  
+}
